@@ -50,3 +50,123 @@ table {
 
 
 /* Write your css below here */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.hbody{
+	align-items: center;
+	padding: 20px 30px;
+	text-align: center;
+}
+.container{
+	margin-top: 75px;
+}
+.header {
+	/* display: flex; */
+	margin-left: 85%;
+	text-size-adjust: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header a {
+	text-decoration: none;
+	color: rgb(65, 59, 59);
+}
+
+.header a:hover{
+	text-decoration: underline;
+}
+
+.logo {
+	width: fit-content;
+	margin: auto;
+}
+
+
+.search{
+	/* padding: 4px 30px; */
+	border-radius: 50px;
+	width: 560px;
+	margin: auto;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	padding: 0 10px;
+	border: 1px solid #d3d3d3;
+	margin-top: 15px;
+	
+}
+
+button:hover{
+	box-shadow: 1px 1px 2px 1px #d3d3d3;
+}
+
+.search:hover {
+	box-shadow: 1px 1px 2px 1px #d3d3d3;
+}
+
+ .search span:nth-of-type(2){
+	color: red;
+	margin-right: 8px;
+}
+
+.search span{
+	cursor: pointer;
+}
+
+.search input{
+	outline: none;
+	border: none;
+	padding:015px 0;
+	flex: 1;
+}
+
+.buttons button{
+	margin-top: 40px;
+	background-color: #F8F9FA;
+	height: 30px;
+	cursor: pointer;
+	width: 10%;
+	border: none;
+}
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100vw;
+}
+
+.nigeria{
+	background-color: rgb(242,242,242) ;
+	height: 40px;
+	margin-top: 80px;
+	padding: 20px 30px;
+	color: gray;
+	/* padding-bottom: 20px; */
+}
+.bottom-footer{
+	background-color: rgb(242,242,242) ;
+	height: 70px;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 12px;
+	
+}
+
+hr{
+	opacity: 0.4;
+}
+
+.btmh1 a{
+	margin-right: 10px;
+	text-align: right;
+}
+
+.bottom-footer a{
+	text-decoration: none;
+	color: gray;
+}
